@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "max17048")(type "KiCad")(uri "/home/renny/repos/GhostMesh/kicad/HeltecModule/max17048.kicad_sym")(options "")(descr ""))
+)
