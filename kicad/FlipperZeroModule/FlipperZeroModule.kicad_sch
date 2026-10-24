@@ -6432,6 +6432,56 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "MEMS Digital output motion sensor\n3-axis \"nano\" accelerometer"
+		(exclude_from_sim no)
+		(at 135.382 66.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "14636e93-377c-4d9b-b8bc-9a12d03eadca")
+	)
+	(text "Humidity Temp. Press.\n"
+		(exclude_from_sim no)
+		(at 80.01 65.786 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6123eb2c-bd73-443a-b368-03af78c5893c")
+	)
+	(text "Digital Ambient Light Sensor"
+		(exclude_from_sim no)
+		(at 28.702 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "88609c08-0a77-4645-b7cf-c1b46dab4b9a")
+	)
+	(text "LiPo Fuel Gague\n"
+		(exclude_from_sim no)
+		(at 245.872 54.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ab7c1b0e-cde1-4fad-bc12-f43191b77be4")
+	)
+	(text "Time-of-Flight laser-ranging sensor\n"
+		(exclude_from_sim no)
+		(at 189.484 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ce7fbffa-5967-47c9-bfd5-8f1cfc754447")
+	)
 	(junction
 		(at 95.25 181.61)
 		(diameter 0)
@@ -6607,6 +6657,16 @@
 			(type default)
 		)
 		(uuid "01d57e85-0f5f-4674-ab43-5d003d840767")
+	)
+	(wire
+		(pts
+			(xy 120.65 36.83) (xy 124.46 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03e5a149-bb1d-41c4-95c8-60c0d22bc311")
 	)
 	(wire
 		(pts
@@ -7357,6 +7417,16 @@
 			(type default)
 		)
 		(uuid "7ba430f1-d678-4730-a4f6-89a5ba9b243c")
+	)
+	(wire
+		(pts
+			(xy 120.65 34.29) (xy 124.46 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d516169-46f3-4756-b64a-f15f186b59a0")
 	)
 	(wire
 		(pts
@@ -8128,7 +8198,7 @@
 		)
 		(uuid "ffcd39a1-6925-4d11-8df8-d26feae96070")
 	)
-	(global_label "INTERRUPT"
+	(global_label "LOW_BATT"
 		(shape input)
 		(at 266.7 105.41 0)
 		(fields_autoplaced yes)
@@ -8140,7 +8210,7 @@
 		)
 		(uuid "0d6eacde-b4f6-478f-a5e5-2f86085c5c32")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.8452 105.41 0)
+			(at 278.7566 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8282,7 +8352,7 @@
 			)
 		)
 	)
-	(global_label "INTERRUPT"
+	(global_label "LOW_BATT"
 		(shape input)
 		(at 262.89 34.29 0)
 		(fields_autoplaced yes)
@@ -8294,7 +8364,7 @@
 		)
 		(uuid "33d6c789-a1cb-45e5-bc51-16558bb97d4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.0352 34.29 0)
+			(at 274.9466 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8361,6 +8431,28 @@
 		(uuid "3ea58dc8-984f-4dde-8b1e-402e2ca94754")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 67.772 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "tilt_int_2"
+		(shape input)
+		(at 120.65 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54070b26-1546-47b9-93f0-5519b7498946")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.3192 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8524,6 +8616,28 @@
 			)
 		)
 	)
+	(global_label "tilt_int_2"
+		(shape input)
+		(at 231.14 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9700776f-2fcd-4482-8cfb-14f69432f86c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.8092 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Flipper.RX"
 		(shape input)
 		(at 231.14 92.71 180)
@@ -8564,6 +8678,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "tilt_int_1"
+		(shape input)
+		(at 231.14 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2daecce-c5d8-44c4-9118-20b5dd119641")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.8092 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8832,6 +8968,28 @@
 			)
 		)
 	)
+	(global_label "tilt_int_1"
+		(shape input)
+		(at 120.65 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffcaaaff-34d4-4c2f-9781-b5d5bbb39aa7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.3192 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector:Conn_01x10_Pin")
 		(at 83.82 168.91 0)
@@ -8858,7 +9016,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 			(at 83.82 168.91 0)
 			(effects
 				(font
@@ -12995,7 +13153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 43.18 168.91 0)
 			(effects
 				(font
